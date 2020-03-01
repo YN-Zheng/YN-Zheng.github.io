@@ -1,4 +1,4 @@
-## [See other pages of mine](https://yn-zheng.github.io/test1.md)
+## [See other pages of mine](https://yn-zheng.github.io/test.md)
 
 ## Welcome to GitHub Pages
 
