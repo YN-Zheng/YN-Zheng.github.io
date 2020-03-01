@@ -1,4 +1,4 @@
-## [面经](https://yn-zheng.github.io/job.html)
+## [面经](https://yn-zheng.github.io/job/conclusion.html)
 
 ## 数据库
 
