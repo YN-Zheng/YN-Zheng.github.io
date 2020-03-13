@@ -58,7 +58,7 @@ User Datagram Protocal
 
 ### TCP头部
 
-![image-20200310181017631](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200310181017631.png)
+![image-20200310181017631](https://yn-zheng.github.io/CSBasic/imgs/image-20200310181017631.png)
 
 - 序号：0~2^32-1：一个字节一个序号。数据第一个字节的序号
 - 确认号：0~3^32-1：一个字节一个确认号。期望受到数据的首字节序号
@@ -67,7 +67,7 @@ User Datagram Protocal
   - 数据偏离首部的距离：20~60字节
 - TCP标记：占6位
 
-![image-20200310181801504](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200310181801504.png)
+![image-20200310181801504](https://yn-zheng.github.io/CSBasic/imgs/image-20200310181801504.png)
 
 - 窗口：占16位，指明允许对方发送的数据量（1bit对应1字节）
 - 校验和
@@ -135,7 +135,7 @@ Automatic Repeat reQuest协议
 
 
 
-![image-20200310212533979](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200310212533979.png)
+![image-20200310212533979](https://yn-zheng.github.io/CSBasic/imgs/image-20200310212533979.png)
 
 - SYN：连接请求
 - 为什么发送方要发出三个确认报文？
@@ -147,7 +147,7 @@ Automatic Repeat reQuest协议
 
 ### TCP连接的释放：四次释放
 
-![image-20200310213121305](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200310213121305.png)
+![image-20200310213121305](https://yn-zheng.github.io/CSBasic/imgs/image-20200310213121305.png)
 
 - FIN：释放连接标签
 
@@ -169,7 +169,7 @@ Automatic Repeat reQuest协议
 
 - TCP连接由两个套接字连接
 
-  ![image-20200310213601911](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200310213601911.png)
+  ![image-20200310213601911](https://yn-zheng.github.io/CSBasic/imgs/image-20200310213601911.png)
 
 - C/S架构
   - 服务端：
@@ -204,7 +204,7 @@ Automatic Repeat reQuest协议
 
 - 树结构
 
-![image-20200311094747319](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200311094747319.png)
+![image-20200311094747319](https://yn-zheng.github.io/CSBasic/imgs/image-20200311094747319.png)
 
  
 
@@ -260,7 +260,7 @@ HyperText Transfer Protocol
   - 在地址中指定
   - 在请求数据中指定
 
-![image-20200311101227867](C:\Users\92985\Desktop\GitHub\YN-Zheng.github.io\CSBasic\imgs\image-20200311101227867.png)
+![image-20200311101227867](https://yn-zheng.github.io/CSBasic/imgs/image-20200311101227867.png)
 
 
 
