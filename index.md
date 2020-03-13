@@ -12,7 +12,7 @@ Zhengyongnian123@gmail.com
 
 ## [面经](https://yn-zheng.github.io/job/conclusion.html)
 
-## [网络基础](https://yn-zheng.github.io/CSBasic/CI.html)
+## [网络基础](https://yn-zheng.github.io/CSBasic/CI)
 
 ## JAVA并发
 
