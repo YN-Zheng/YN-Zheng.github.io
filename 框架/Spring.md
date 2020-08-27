@@ -9,7 +9,7 @@
     - IOC：控制反转
     - AOP：面向切片编程
   - 展现层：Spring MVC
-  - 十九层：Spring JDBC
+  - 持久层：Spring JDBC
 - 工厂模式解耦
   - 降低程序间的依赖关系
   - 编译期不依赖，运行时才依赖
