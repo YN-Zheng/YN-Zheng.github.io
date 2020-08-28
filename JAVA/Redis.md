@@ -75,9 +75,7 @@
 
 
 
-![image-20200819170413889](https://raw.githubusercontent.com/YN-Zheng/YN-Zheng.github.io/master/typora202008/19/170416-970626.png)
-
-
+![image-20200819170413889](https://raw.githubusercontent.com/YN-Zheng/img/master/typora202008/27/205343-410537.png)
 
 
 

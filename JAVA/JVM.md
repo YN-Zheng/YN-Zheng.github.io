@@ -271,10 +271,7 @@ public class MyClassLoader extends ClassLoader{
 
 - 老年代：生命周期较长的对象
 
-  ![image-20200718120004270](https://raw.githubusercontent.com/YN-Zheng/YN-Zheng.github.io/master/typora202008/24/124956-322002.png)
-
 - Full GG  (Major GC)
-
   - 比Minor GC慢，执行频率低
   - 触发条件
     - 老年代空间不足
@@ -282,6 +279,7 @@ public class MyClassLoader extends ClassLoader{
       - 元空间取代永久代：降低FULL GC频率
     - Minor GC 晋升到老年代的平均大小大于老年代的剩余空间
     - 调用System.gc();
+
 
 
 
@@ -297,8 +295,7 @@ public class MyClassLoader extends ClassLoader{
 
 - 强引用，软引用，弱引用，虚引用有什么用
 
-  - ![image-20200718124605918](https://raw.githubusercontent.com/YN-Zheng/YN-Zheng.github.io/master/typora202008/24/124957-611517.png)
-  - 强引用：最普遍
+  - ![image-20200718124605918](https://raw.githubusercontent.com/YN-Zheng/img/master/typora202008/27/205412-356692.png)强引用：最普遍
     - Object obj = new Object()
     - 抛出OutOfMemoryError程序也不会回收具有强引用的对象
     - 通过将对象设置为null来弱化引用，使其被回收
@@ -306,10 +303,10 @@ public class MyClassLoader extends ClassLoader{
     - 有用但非必须的状态
     - 只有当内存空间不足，GC会回收该引用对象的内存
     - 可以实现高速缓存
-
-  ![image-20200718124335486](E:\视频学习\并发\image-20200718124335486.png)
-
-  - 弱引用
+  
+![image-20200718124335486](https://raw.githubusercontent.com/YN-Zheng/img/master/typora202008/27/205403-808233.png)
+  
+- 弱引用
     - GC时会被回收
   - 虚引用
     - 不会决定对象的生命周期
