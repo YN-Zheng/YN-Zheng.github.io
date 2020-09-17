@@ -15,7 +15,7 @@ Zhengyongnian123@gmail.com
 
 ### [Redis](https://yn-zheng.github.io/JAVA/Redis.html)
 
-### [MYSQL](https://yn-zheng.github.io/JAVA/MYSQL.html)
+### [MYSQL](https://yn-zheng.github.io/JAVA/MySQL.html)
 
 
 
